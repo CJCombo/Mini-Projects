@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#outcontainer{
+    width: 970px;
+    height: 1035px;
+    margin: auto;
+    background-color: #082d47;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+h1{
+display: flex;
+color: white;
+font-family: Verdana;
+font-size: 25px;
+font-weight: normal;
+margin-left: 15px;
+}
+.nav{
+    display: flex;
+}
+    .nav ul{
+    display: flex;
+    }
+    .nav li{
+    padding: 10px 30px 0px 30px;
+    list-style-type: none; 
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+    }
+#maincontainer{
+    margin: auto;
+    background-color: white;
+    width: 950px;
+    height: 920px;
+    text-align: center;
+}
+    .servicepic{
+    width: 920px;
+    padding: 15px 10px 15px 10px;
+    }
+    #info{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .info-box{
+        display: flex;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+        width:296px;
+        height: fit-content;
+        background-color: #1468a8;
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    .icon{
+        height: 35px;
+        padding: 0px 5px 0px 10px;
+        margin-top: 15px;
+    }
+    .ib-head{
+        margin-top: 20px;
+        font-family: Verdana;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .ib-text{
+        font-size: 12px;
+        text-align: justify;
+        padding: 9px 15px 20px 15px;
+        margin-right: 25px;
+    }
+    button{
+        background: linear-gradient(to top, #1991dc 40%, #56b3ee 100%) ;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 20px 0px 20px 20px;
+        padding: 10px 40px 10px 40px;
+        font-size: 15px;
+        }
+
+    #info2{
+        display: flex;
+        justify-content: space-evenly;
+        color: #0e283a;
+    }    
+    .ibox{
+        width:296px;
+    }
+    .ibox2{
+        width:296px;
+        margin-top: 65px;
+        text-align: justify;
+    }
+    .learnmore{
+        text-decoration: none;
+        color: #5184aa;
+        margin-left: 10px;
+    }
+    .ibox3{
+        width:296px;
+    }
+    .building{
+    margin-top: 20px;
+    width: 296px;
+    }
+    .quote-box{
+        background-color: #daedff;
+        color: #61788a;
+        font-size: 15px;
+        font-style: italic;
+        padding: 30px 20px 40px 20px;
+        margin: 20px 0px 15px 0px;
+        height: 60px;
+        text-align: justify ;
+    }
+    .ib2-head{
+        margin-top: 20px;
+        font-family: Verdana;
+        font-weight: normal;
+        font-size: 20px;
+        text-align: left;
+    }
+    .ib2-text{
+        font-size: 11px;
+        text-align: justify;
+        padding: 0px 5px 10px 10px;
+    }
+#footer{
+    background-color: #daedff;
+    height: 50px;
+    margin: auto;
+    width: 950px;
+}
+    .nav2{
+        display: flex;
+        justify-content: center;
+        margin-top: 1px;
+    }
+        .nav2 ul{
+        display: flex;
+        }
+        .nav2 li{
+        padding: 10px 12px 0px 10px;
+        list-style-type: none; 
+        }
+        .nav2 a{
+            text-decoration: none;
+            font-size: 13px;
+            color: #5184aa;
+        }
